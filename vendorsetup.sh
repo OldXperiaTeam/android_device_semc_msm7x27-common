@@ -18,9 +18,9 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo jbmp_mimmi-eng
-add_lunch_combo jbmp_mimmi-userdebug
-add_lunch_combo jbmp_robyn-eng
-add_lunch_combo jbmp_robyn-userdebug
-add_lunch_combo jbmp_shakira-eng
-add_lunch_combo jbmp_shakira-userdebug
+add_lunch_combo cm_mimmi-eng
+add_lunch_combo cm_mimmi-userdebug
+add_lunch_combo cm_robyn-eng
+add_lunch_combo cm_robyn-userdebug
+add_lunch_combo cm_shakira-eng
+add_lunch_combo cm_shakira-userdebug
