@@ -353,10 +353,6 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/etc/01_qcomm_omx.cfg:system/etc/01_qcomm_omx.cfg \
     device/semc/msm7x27-common/prebuilt/etc/adreno_config.txt:system/etc/adreno_config.txt
 
-# OTA Update Center
-PRODUCT_COPY_FILES += \
-    device/semc/msm7x27-common/prebuilt/app/OTAUpdater.apk:system/app/OTAUpdater.apk
-
 # Audio blobs from ICS
 PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/lib/hw/audio.primary.msm7x27.so:system/lib/hw/audio.primary.msm7x27.so \
