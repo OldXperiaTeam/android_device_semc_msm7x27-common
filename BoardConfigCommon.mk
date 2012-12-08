@@ -35,6 +35,7 @@ TARGET_DISABLE_ARM_PIE := true
 
 ## ARMv6-compatible processor rev 5 (v6l)
 TARGET_BOARD_PLATFORM := msm7x27
+TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv6-vfp
 TARGET_CPU_ABI := armeabi
 TARGET_CPU_ABI2 := armeabi
