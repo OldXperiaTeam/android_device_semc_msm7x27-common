@@ -107,8 +107,7 @@ PRODUCT_COPY_FILES += \
 
 # Config files
 PRODUCT_COPY_FILES += \
-    device/semc/msm7x27-common/prebuilt/etc/hw_config.sh:system/etc/hw_config.sh \
-    system/bluetooth/data/main.le.conf:system/etc/bluetooth/main.conf
+    device/semc/msm7x27-common/prebuilt/etc/hw_config.sh:system/etc/hw_config.sh
 
 # Extra prebuilt binaries
 PRODUCT_COPY_FILES += \
