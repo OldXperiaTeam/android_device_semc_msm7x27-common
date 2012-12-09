@@ -104,8 +104,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
-    device/semc/msm7x27-common/prebuilt/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    device/semc/msm7x27-common/prebuilt/etc/permissions/com.sonyericsson.smfmf.xml:system/etc/permissions/com.sonyericsson.smfmf.xml
 
 
 # Config files
@@ -127,14 +125,12 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/bin/port-bridge:system/bin/port-bridge \
     device/semc/msm7x27-common/prebuilt/bin/qmuxd:system/bin/qmuxd \
     device/semc/msm7x27-common/prebuilt/bin/rild:system/bin/rild \
-    device/semc/msm7x27-common/prebuilt/app/AntHalService.apk:system/app/AntHalService.apk \
     device/semc/msm7x27-common/prebuilt/bin/updatemiscta:system/bin/updatemiscta \
     device/semc/msm7x27-common/prebuilt/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
     device/semc/msm7x27-common/prebuilt/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     device/semc/msm7x27-common/prebuilt/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
     device/semc/msm7x27-common/prebuilt/lib/libcamera.so:obj/lib/libcamera.so \
     device/semc/msm7x27-common/prebuilt/lib/libcamera.so:system/lib/libcamera.so \
-    device/semc/msm7x27-common/prebuilt/lib/libanthal.so:system/lib/libanthal.so \
     device/semc/msm7x27-common/prebuilt/lib/libauth.so:system/lib/libauth.so \
     device/semc/msm7x27-common/prebuilt/lib/libcm.so:system/lib/libcm.so \
     device/semc/msm7x27-common/prebuilt/lib/libcommondefs.so:system/lib/libcommondefs.so \
