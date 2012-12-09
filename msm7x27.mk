@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
     screencap \
     hostap \
     rzscontrol \
-    rild \
     com.android.future.usb.accessory \
     make_ext4fs \
     setup_fs \
@@ -124,6 +123,7 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/bin/nvimport:system/bin/nvimport \
     device/semc/msm7x27-common/prebuilt/bin/port-bridge:system/bin/port-bridge \
     device/semc/msm7x27-common/prebuilt/bin/qmuxd:system/bin/qmuxd \
+    device/semc/msm7x27-common/prebuilt/bin/rild:system/bin/rild \
     device/semc/msm7x27-common/prebuilt/app/AntHalService.apk:system/app/AntHalService.apk \
     device/semc/msm7x27-common/prebuilt/bin/updatemiscta:system/bin/updatemiscta \
     device/semc/msm7x27-common/prebuilt/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
