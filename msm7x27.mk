@@ -74,12 +74,12 @@ PRODUCT_PACKAGES += \
     power.msm7x27
 
 # FM Radio
-PRODUCT_PACKAGES += \
-    fmreceiverif \
-    com.ti.fm.fmreceiverif.xml \
-    libfmrx \
-    FmRxService \
-    Fmapplication
+# PRODUCT_PACKAGES += \
+#     fmreceiverif \
+#     com.ti.fm.fmreceiverif.xml \
+#     libfmrx \
+#     FmRxService \
+#     Fmapplication
 
 # Bugmailer
 PRODUCT_PACKAGES += send_bug
