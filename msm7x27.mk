@@ -69,6 +69,10 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh
 
+# Power HAL
+PRODUCT_PACKAGES += \
+    power.msm7x27
+
 # FM Radio
 PRODUCT_PACKAGES += \
     fmreceiverif \
