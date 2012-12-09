@@ -18,6 +18,8 @@ PRODUCT_PACKAGES += \
     sensors.msm7x27 \
     lights.msm7x27 \
     audio.a2dp.default \
+    audio.primary.msm7x27 \
+    audio_policy.msm7x27 \
     audio.usb.default \
     libaudioutils
 
