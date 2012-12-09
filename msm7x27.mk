@@ -197,7 +197,7 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/usr/keylayout/systemconnector.kl:system/usr/keylayout/systemconnector.kl
 
 # SEMC keyboard
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/app/SuquashiInputMethod.apk:system/app/SuquashiInputMethod.apk \
     device/semc/msm7x27-common/prebuilt/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
     device/semc/msm7x27-common/prebuilt/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar \
@@ -351,8 +351,3 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x27-common/prebuilt/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     device/semc/msm7x27-common/prebuilt/etc/01_qcomm_omx.cfg:system/etc/01_qcomm_omx.cfg \
     device/semc/msm7x27-common/prebuilt/etc/adreno_config.txt:system/etc/adreno_config.txt
-
-# Audio blobs from ICS
-PRODUCT_COPY_FILES += \
-    device/semc/msm7x27-common/prebuilt/lib/hw/audio.primary.msm7x27.so:system/lib/hw/audio.primary.msm7x27.so \
-    device/semc/msm7x27-common/prebuilt/lib/hw/audio_policy.msm7x27.so:system/lib/hw/audio_policy.msm7x27.so
