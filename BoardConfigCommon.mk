@@ -78,6 +78,7 @@ TARGET_PROVIDES_LIBLIGHTS := true
 # PRODUCT_DEFAULT_WIFI_CHANNELS := 14
 
 ## USB
+BOARD_USE_USB_MASS_STORAGE_SWITCH := true
 BOARD_UMS_LUNFILE := "/sys/devices/platform/usb_mass_storage/lun0/file"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/usb_mass_storage/lun0/file"
 
@@ -120,6 +121,7 @@ TARGET_NO_HW_OVERLAY := true
 BOARD_HAVE_HDMI_SUPPORT := false
 BOARD_HAS_SMALL_SYSTEM_PARTITION := true
 TARGET_USES_ION := false
+BOARD_USE_LEGACY_TOUCHSCREEN := true
 
 ## Kernel
 BOARD_KERNEL_CMDLINE := console=null
@@ -146,9 +148,6 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 ## OTA package maker
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/semc/msm7x27-common/releasetools/semc_ota_from_target_files
-
-## Prelinks
-PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/device/semc/msm7x27-common/prelink-linux-arm-msm7x27.map
 
 ## TWRP
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
