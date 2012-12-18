@@ -57,7 +57,9 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 1240
 
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH := true
-
+BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/msm7x27-common/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/semc/msm7x27-common/bluetooth/btvendor_7x27.txt
 
 ## Lights
 TARGET_PROVIDES_LIBLIGHT := true
