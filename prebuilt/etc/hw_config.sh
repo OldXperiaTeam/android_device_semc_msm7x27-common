@@ -39,4 +39,3 @@ mount -o rw,remount -t yaffs2 /dev/block/mtdblock0 /system
 chmod u+s /system/bin/charger
 mount -o ro,remount -t yaffs2 /dev/block/mtdblock0 /system
 rm -rf /data/local/download/*
-chmod 0150 /storage
