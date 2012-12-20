@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     gralloc.default \
     gralloc.msm7x27 \
     hwcomposer.default \
-    hwcomposer.msm7x27 \
     copybit.msm7x27 \
     libgenlock \
     libmemalloc \
